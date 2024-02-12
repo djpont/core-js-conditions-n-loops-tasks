@@ -70,8 +70,6 @@ function canQueenCaptureKing(queen, king) {
   if (queen.x === king.x) return true;
   if (queen.y === king.y) return true;
   return Math.abs(queen.x - king.x) === Math.abs(queen.y - king.y);
-
-
 }
 
 /**
